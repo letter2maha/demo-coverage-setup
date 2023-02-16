@@ -21,6 +21,7 @@ public class Circumference{
 
   public static double circle(double r){
     if(r<0) return 0;
+    System.out.println(r);
     return 2*r*Math.PI;
   }
 

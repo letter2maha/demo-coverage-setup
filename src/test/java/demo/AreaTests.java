@@ -55,6 +55,7 @@ public class AreaTests {
     double h = -20;
     double actual = Area.rectangle(b,h);
     double expected = 0;
+    System.out.println("Test");
     Assert.assertEquals(0, Double.compare(expected, actual));
   }
 

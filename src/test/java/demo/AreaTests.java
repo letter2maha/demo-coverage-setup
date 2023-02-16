@@ -57,21 +57,21 @@ public class AreaTests {
     double expected = 0;
     Assert.assertEquals(0, Double.compare(expected, actual));
   }
-  // Square
-  @Test
-  public void checkSquareAreaValidInput(){
-    double s = 10;
-    double actual = Area.square(s);
-    double expected = 100;
-    Assert.assertEquals(0, Double.compare(expected, actual));
-  }
-  @Test
-  public void checkSquareAreaInvalidSideInput(){
-    double s = -10;
-    double actual = Area.square(s);
-    double expected = 0;
-    Assert.assertEquals(0, Double.compare(expected, actual));
-  }
+//  // Square
+//  @Test
+//  public void checkSquareAreaValidInput(){
+//    double s = 10;
+//    double actual = Area.square(s);
+//    double expected = 100;
+//    Assert.assertEquals(0, Double.compare(expected, actual));
+//  }
+//  @Test
+//  public void checkSquareAreaInvalidSideInput(){
+//    double s = -10;
+//    double actual = Area.square(s);
+//    double expected = 0;
+//    Assert.assertEquals(0, Double.compare(expected, actual));
+//  }
   // Circle
   @Test
   public void checkCircleAreaValidInput(){

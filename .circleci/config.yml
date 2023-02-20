@@ -1,0 +1,11 @@
+version: 2.1
+jobs:
+  build:
+    docker:
+      - image: circleci/openjdk:11-jdk
+    steps:
+      - checkout
+      - run: mvn clean verify
+      - run: bash <(curl -s https://codecov.io/bash)
+environment:
+  CODECOV_TOKEN: 3552f845-a844-4812-a4be-ae857bf0f5e5
